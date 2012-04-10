@@ -1,4 +1,4 @@
-package com.mycompany.subsystem.extension;
+package com.mycompany.extension;
 
 import org.jboss.as.controller.Extension;
 import org.jboss.as.controller.ExtensionContext;

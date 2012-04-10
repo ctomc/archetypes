@@ -1,7 +1,8 @@
-package com.mycompany.subsystem.extension;
+package com.mycompany.extension;
 
 import java.util.List;
 
+import com.mycompany.extension.deployment.SubsystemDeploymentProcessor;
 import org.jboss.as.controller.AbstractBoottimeAddStepHandler;
 import org.jboss.as.controller.OperationContext;
 import org.jboss.as.controller.OperationFailedException;
@@ -11,8 +12,6 @@ import org.jboss.as.server.DeploymentProcessorTarget;
 import org.jboss.dmr.ModelNode;
 import org.jboss.logging.Logger;
 import org.jboss.msc.service.ServiceController;
-
-import com.mycompany.subsystem.deployment.SubsystemDeploymentProcessor;
 
 /**
  * Handler responsible for adding the subsystem resource to the model

@@ -1,4 +1,4 @@
-package com.mycompany.subsystem.deployment;
+package com.mycompany.extension.deployment;
 
 import org.jboss.as.server.AbstractDeploymentChainStep;
 import org.jboss.as.server.deployment.DeploymentPhaseContext;
